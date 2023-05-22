@@ -34,7 +34,7 @@ function Library:CreateWindow(WinName)
 
 	DaemonLib.Name = "DaemonLib"
 
-	DaemonLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	DaemonLib.Parent = game.CoreGui
 
 	DaemonLib.Enabled = true
 
@@ -139,6 +139,9 @@ function Library:CreateWindow(WinName)
 	TextButton_1.TextSize = 18
 
 	TextButton_1.TextWrapped = true
+TextButton_1.MouseButton1Click:Connect(function()
+		game.CoreGui:FindFirstChild("DaemonLib"):Destroy()
+	end)
 
 	UICorner_2.Parent = Main_1
 
