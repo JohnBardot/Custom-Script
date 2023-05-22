@@ -415,7 +415,8 @@ local Library = {}
   
                  function Elements:CreateToggle(TogName,Callback) 
   
-  
+  local toggled = false
+  local debounce = false
                                  local Toggle_1 = Instance.new("TextButton") 
   
                                  local UICorner_4 = Instance.new("UICorner") 
@@ -486,32 +487,27 @@ local Library = {}
   
                           
   
-                         local toggled = false 
-  
-  
-                         Toggle_1.MouseButton1Click:Connect(function() 
-  
-                                     if toggled == true then
-                                         
-                                         Frame_1.BackgroundTransparency = 1
-                                         wait(0.25)
-                                         
-                                         toggled = false
-                                 
-                                    elseif toggled == false then
-                                         Frame_1.BackgroundTransparency = 0
-                                        wait(0.25)
-                                        
-                                        toggled = true
-                                        Callback(toggled)
-                                    end
-                                    
-                                
-                                
-                                
-                                end)
-  
-                                 
+                         
+  Toggle_1.MouseButton1Click:Connect(function()
+                 if debounce == false then
+    if toggled == false then
+    debounce = true
+  Frame_1.BackgroundTransparency = o 
+  debounce = false
+  toggled = true
+  pcall(Callback, toggled)
+  elseif toggled == true then
+  debounce = true 
+  Frame_1.BackgroundTransparency = 1 
+  debounce = false
+  toggled = false
+  pcall(Callback, toggled)
+  end
+  end
+  end)
+           
+
+                 
                 end   
   
                  function Elements:CreateBox(BoxName,Callback) 
@@ -707,4 +703,4 @@ local Library = {}
          return Tabs 
   
  end 
-return Library
+  return Library
