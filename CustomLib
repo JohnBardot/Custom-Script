@@ -225,6 +225,8 @@ TextButton_1.MouseButton1Click:Connect(function()
 
 	UIPadding_5.PaddingTop = UDim.new(0,3)
 
+	UIPadding_5.PaddingBottom = UDim.new(0,3)
+
 	
 
 	
@@ -331,7 +333,7 @@ TextButton_1.MouseButton1Click:Connect(function()
 
 		UIPadding_2.PaddingTop = UDim.new(0,7)
 
-		
+		UIPadding_2.PaddingBottom = UDim.new(0,7)
 
 		Tab_1.MouseButton1Click:Connect(function()
 
