@@ -185,7 +185,7 @@ TextButton_1.MouseButton1Click:Connect(function()
 
 	Tabs_1.ClipsDescendants = true
 
-	Tabs_1.AutomaticCanvasSize = Enum.AutomaticSize.None
+	Tabs_1.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 	Tabs_1.BottomImage = "rbxasset://textures/ui/Scroll/scroll-bottom.png"
 
@@ -203,7 +203,7 @@ TextButton_1.MouseButton1Click:Connect(function()
 
 	Tabs_1.ScrollBarThickness = 1
 
-	Tabs_1.ScrollingDirection = Enum.ScrollingDirection.XY
+	Tabs_1.ScrollingDirection = Enum.ScrollingDirection.Y
 
 	Tabs_1.TopImage = "rbxasset://textures/ui/Scroll/scroll-top.png"
 
@@ -263,7 +263,7 @@ TextButton_1.MouseButton1Click:Connect(function()
 
 		ScrollingFrame_1.ClipsDescendants = true
 
-		ScrollingFrame_1.AutomaticCanvasSize = Enum.AutomaticSize.None
+		ScrollingFrame_1.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 		ScrollingFrame_1.BottomImage = "rbxasset://textures/ui/Scroll/scroll-bottom.png"
 
@@ -281,7 +281,7 @@ TextButton_1.MouseButton1Click:Connect(function()
 
 		ScrollingFrame_1.ScrollBarThickness = 6
 
-		ScrollingFrame_1.ScrollingDirection = Enum.ScrollingDirection.XY
+		ScrollingFrame_1.ScrollingDirection = Enum.ScrollingDirection.Y
 
 		ScrollingFrame_1.TopImage = "rbxasset://textures/ui/Scroll/scroll-top.png"
 
