@@ -30,7 +30,72 @@ local Library = {}
   
          local UIPadding_5 = Instance.new("UIPadding") 
   
-          
+          local Minimize = Instance.new("ScreenGui")
+
+local Holder_1 = Instance.new("Frame")
+
+local ImageButton_1 = Instance.new("ImageButton")
+
+local UICorner_1 = Instance.new("UICorner")
+
+local UIStroke_1 = Instance.new("UIStroke")
+
+
+Minimize.Name = "Minimize"
+
+Minimize.Parent = game.CoreGui
+
+
+
+Holder_1.Name = "Holder"
+
+Holder_1.Parent = Minimize
+
+Holder_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+
+Holder_1.BackgroundTransparency = 1
+
+Holder_1.BorderColor3 = Color3.fromRGB(27,42,53)
+
+Holder_1.BorderSizePixel = 0
+
+Holder_1.Position = UDim2.new(0.503811479, 0,0.435504466, 0)
+
+Holder_1.Size = UDim2.new(0, 49,0, 49)
+Holder_1.Active = false
+Holder_1.Draggable = true
+
+
+
+ImageButton_1.Parent = Holder_1
+
+ImageButton_1.Active = true
+
+ImageButton_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+
+ImageButton_1.BorderColor3 = Color3.fromRGB(27,42,53)
+
+ImageButton_1.BorderSizePixel = 0
+
+ImageButton_1.Position = UDim2.new(-4.54878855, 0,-1.63711751, 0)
+
+ImageButton_1.Size = UDim2.new(0, 49,0, 49)
+
+ImageButton_1.Image = "rbxassetid://13525689711"
+
+ImageButton_1.MouseButton1Click:Connect(function() 
+                 Holder_1.Active = false 
+                  Main_1.Active = true 
+end) 
+
+UICorner_1.Parent = ImageButton_1
+
+
+
+UIStroke_1.Parent = ImageButton_1
+
+UIStroke_1.Thickness = 1
+
   
          DaemonLib.Name = "DaemonLib" 
   
@@ -140,7 +205,8 @@ local Library = {}
   
          TextButton_1.TextWrapped = true 
  TextButton_1.MouseButton1Click:Connect(function() 
-                 game.CoreGui:FindFirstChild("DaemonLib"):Destroy() 
+                 Holder_1.Active = true
+                  Main_1.Active = false 
          end) 
   
          UICorner_2.Parent = Main_1 
