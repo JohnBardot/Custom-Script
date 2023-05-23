@@ -558,7 +558,7 @@ UIStroke_1.Thickness = 1
                  if debounce == false then
     if toggled == false then
     debounce = true
-  Frame_1.BackgroundTransparency = o 
+  Frame_1.BackgroundTransparency = 0
   debounce = false
   toggled = true
   pcall(Callback, toggled)
