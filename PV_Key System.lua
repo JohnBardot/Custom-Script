@@ -164,10 +164,11 @@ CheckKey_1.MouseButton1Click:Connect(function()
                  wait(1)
                  if game.PlaceId == 3101667897 then
                  loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Script/main/PV_Legends%20Of%20Speed.lua"))()
+          game.CoreGui:FindFirstChild("KeySystem"):Destroy() 
             elseif game.PlaceId == 3956818381 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Script/main/CustomNinjaLegends.lua"))()
+          game.CoreGui:FindFirstChild("KeySystem"):Destroy() 
                  end
-      game.CoreGui:FindFirstChild("KeySystem"):Destroy() 
                  else
                  CheckKey_1.Text = "Wrong!"
                  wait(1)
