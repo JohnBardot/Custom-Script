@@ -168,6 +168,9 @@ CheckKey_1.MouseButton1Click:Connect(function()
             elseif game.PlaceId == 3956818381 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Script/main/CustomNinjaLegends.lua"))()
           game.CoreGui:FindFirstChild("KeySystem"):Destroy() 
+elseif game.PlaceId == 189707 then 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Script/main/CustomNaturalDisaster.lua"))()
+        game.CoreGui:FindFirstChild("KeySystem"):Destroy()
                  end
                  else
                  CheckKey_1.Text = "Wrong!"
