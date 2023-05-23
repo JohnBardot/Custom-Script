@@ -172,9 +172,9 @@ elseif game.PlaceId == 189707 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Script/main/CustomNaturalDisaster.lua"))()
         game.CoreGui:FindFirstChild("KeySystem"):Destroy()
 else
-KeyInput_1.PlaceholderText = "Game Not Supported"
+KeyInput_1.Text = "Game Not Supported"
 wait(1)
-KeyInput_1.PlaceholderText = "Enter Key"
+KeyInput_1.Text = "Enter Key"
                  end
                  else
                  CheckKey_1.Text = "Wrong!"
