@@ -43,7 +43,7 @@ function Library:CreateWindow(WinName)
 
 	Minimize.Name = "Minimize"
 
-	Minimize.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	Minimize.Parent = game.CoreGui
 
 	Minimize.Enabled = false
 
@@ -99,7 +99,7 @@ function Library:CreateWindow(WinName)
 
 	DaemonLib.Name = "DaemonLib" 
 
-	DaemonLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") 
+	DaemonLib.Parent = game.CoreGui
 
 	DaemonLib.Enabled = true 
 
