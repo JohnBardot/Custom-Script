@@ -18,7 +18,7 @@ local CheckKey_1 = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 local Info_1 = Instance.new("TextLabel")
 
-_G.Key = "LOS_Jux9w2k8"
+_G.Key = "0N1_Jux9w2k8"
 
 -- Properties:
 KeySystem.Name = "KeySystem"
