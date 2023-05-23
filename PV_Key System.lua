@@ -137,7 +137,7 @@ GetKey_1.Text = "Get Key"
 GetKey_1.TextColor3 = Color3.fromRGB(68,166,118)
 GetKey_1.TextSize = 15
 GetKey_1.MouseButton1Click:Connect(function() 
-                 setclipboard("https://discord.gg/jbEG5nkPwg")
+                 setclipboard("https://discord.com/invite/UnjnNVx6Tp")
                  GetKey_1.Text = "Copied"
                  wait(1)
                  GetKey_1.Text = "Get Key"
@@ -187,6 +187,6 @@ Info_1.BorderSizePixel = 0
 Info_1.Position = UDim2.new(0.0533333346, 0,0.834394932, 0)
 Info_1.Size = UDim2.new(0, 200,0, 23)
 Info_1.Font = Enum.Font.Ubuntu
-Info_1.Text = "discord.gg/jbEG5nkPwg"
+Info_1.Text = "discord.com/invite/UnjnNVx6Tp"
 Info_1.TextColor3 = Color3.fromRGB(19,19,19)
 Info_1.TextSize = 14
