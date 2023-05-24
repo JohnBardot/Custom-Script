@@ -51,10 +51,11 @@ KeySystem.Parent = game.CoreGui
 
 Main_1.Name = "Main"
 Main_1.Parent = KeySystem
+Main_1.AnchorPoint = Vector2.new(0.5,0.5)
 Main_1.BackgroundColor3 = Color3.fromRGB(68,166,118)
 Main_1.BorderColor3 = Color3.fromRGB(27,42,53)
 Main_1.BorderSizePixel = 0
-Main_1.Position = UDim2.new(0.423188418, 0,0.407192588, 0)
+Main_1.Position = UDim2.new(0.5,0,0.5,0)
 Main_1.Size = UDim2.new(0, 225,0, 184)
 
 TopBar_1.Name = "TopBar"
@@ -211,10 +212,11 @@ UICorner_7.CornerRadius = UDim.new(0,6)
 
 Changelog_1.Name = "Changelog"
 Changelog_1.Parent = KeySystem
+Changelog_1.AnchorPoint = Vector2.new(0.5,0.5)
 Changelog_1.BackgroundColor3 = Color3.fromRGB(68,166,118)
 Changelog_1.BorderColor3 = Color3.fromRGB(27,42,53)
 Changelog_1.BorderSizePixel = 0
-Changelog_1.Position = UDim2.new(0.64, 0,0.407000005, 0)
+Changelog_1.Position = UDim2.new(0,730,0.5,0)
 Changelog_1.Size = UDim2.new(0, 133,0, 149)
 
 TopBar_2.Name = "TopBar"
@@ -295,10 +297,11 @@ UIPadding_4.PaddingRight = UDim.new(0,3)
 
 About_1.Name = "About"
 About_1.Parent = KeySystem
+About_1.AnchorPoint = Vector2.new(0.5,0.5)
 About_1.BackgroundColor3 = Color3.fromRGB(68,166,118)
 About_1.BorderColor3 = Color3.fromRGB(27,42,53)
 About_1.BorderSizePixel = 0
-About_1.Position = UDim2.new(0.29, 0,0.407000005, 0)
+About_1.Position = UDim2.new(0.328, 0,0.5, 0)
 About_1.Size = UDim2.new(0, 133,0, 149)
 
 TopBar_3.Name = "TopBar"
