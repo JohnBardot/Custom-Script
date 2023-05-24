@@ -106,12 +106,13 @@ function Library:CreateWindow(WinName)
 	Main_1.Name = "Main" 
 
 	Main_1.Parent = DaemonLib 
+Main_1.AnchorPoint = Vector2.new(0.5,0.5)
 
 	Main_1.BackgroundColor3 = Color3.fromRGB(68,166,118) 
 
 	Main_1.BorderColor3 = Color3.fromRGB(27,42,53) 
 
-	Main_1.Position = UDim2.new(0.399643689, 0,0.334610462, 0) 
+	Main_1.Position = UDim2.new(0.5,0,0.5,0) 
 
 	Main_1.Size = UDim2.new(0, 337,0, 259) 
 
