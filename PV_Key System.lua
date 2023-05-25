@@ -175,6 +175,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Scr
 elseif game.PlaceId == 189707 then 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Script/main/CustomNaturalDisaster.lua"))()
         game.CoreGui:FindFirstChild("KeySystem"):Destroy()
+elseif game.PlaceId == 10048079179 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnBardot/Custom-Script/main/CustomFatSim.lua"))()
+         game.CoreGui:FindFirstChild("KeySystem"):Destroy() 
 else
 KeyInput_1.Text = "Game Not Supported"
 wait(1)
