@@ -41,7 +41,7 @@ end
 
 
 --《 Window 》--
-local Window = Library:CreateWindow("Legends Of Speed")
+local Window = Library:CreateWindow("Fat Simulator")
 
 --《 Tabs 》--
 local Tab1 = Window:CreateTab("Main")
